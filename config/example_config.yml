@@ -1,0 +1,37 @@
+# Example configuration for OB-SLIP
+inputs:
+  pre_image: /path/to/pre_event.tif
+  post_image: /path/to/post_event.tif
+  dem: /path/to/dem.tif
+  output_dir: ./outputs
+
+normalization:
+  lower_pct: 2
+  upper_pct: 98
+  clip_range: [0, 1]
+
+fusion:
+  weights:
+    dndvi: 0.7
+    dndre: 0.2
+    dbrightness: 0.1
+  apply_terrain_weight: true
+  apply_post_mask_weight: true
+
+terrain:
+  slope_thresholds:
+    low: 1.0       # degrees; slope < low => weight 0
+    ramp_min: 1.0  # start linear scaling
+    ramp_max: 20.0 # end linear scaling
+    flat_max: 45.0 # slope >=20 and <=45 => weight 1
+  ramp_min_weight: 0.20
+  ramp_max_weight: 1.00
+  high_slope_weight: 0.85
+
+thresholding:
+  method: otsu
+  mmu_pixels: 9
+
+validation:
+  buffer_m: 0
+  iou_threshold: 0.3

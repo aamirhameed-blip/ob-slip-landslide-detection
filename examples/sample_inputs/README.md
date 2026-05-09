@@ -1,0 +1,1 @@
+Placeholders for sample inputs. Do NOT include proprietary imagery.\n\n- pre_event.tif: multispectral pre-event image (placeholder)\n- post_event.tif: multispectral post-event image (placeholder)\n- dem.tif: DEM (placeholder)\n

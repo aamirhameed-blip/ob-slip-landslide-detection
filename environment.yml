@@ -1,0 +1,19 @@
+name: ob-slip
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - geopandas
+  - rasterio
+  - shapely
+  - scipy
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - scikit-image
+  - pip
+  - pip:
+    - rasterio
+    - fiona
