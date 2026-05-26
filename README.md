@@ -61,7 +61,7 @@ If you use OB-SLIP in published work, please cite:
 > - Chicago: Hameed, Aamir, Pierluigi Confuorto, Alessandro Novellino, Piernicola Lollino, and Mario Parise. 2026. “OB-SLIP: A Terrain-Constrained Object-Based Extension of the SLIP Algorithm for Multi-Sensor Landslide Detection.” Unpublished manuscript.
 > - Vancouver: Hameed A, Confuorto P, Novellino A, Lollino P, Parise M. OB-SLIP: A terrain-constrained object-based extension of the SLIP algorithm for multi-sensor landslide detection. Unpublished manuscript. 2026.
 
-Bibtex: For citation information, see [Citation.bib](Citation.bib).
+Bibtex: For citation information, see [Reference](Citation.bib).
 
 
 Reproducibility note
